@@ -1,2 +1,12 @@
 
 /testJSONS
+token.json
+*.json
+*.pyc
+gptStuff/keys.env
+
+.env
+obsidianScripts/development.ipynb
+obsidianScripts/moreNameTesting.ipynb
+gptStuff/playground.ipynb
+development.ipynb
