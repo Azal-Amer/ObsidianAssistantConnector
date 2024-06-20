@@ -15,3 +15,5 @@ If you get tags, they will come with the format of
  - item 3
 
 You can just summarize that to report it.
+
+If your parent has just been told to remember some fact, you will just need to confirm what has been remembered based on what you're originally told, because sister will not give any information.

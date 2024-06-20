@@ -203,7 +203,8 @@ Assistant: Here's the generated JSON based on the provided user input:
 ```
 
 The generated JSON includes multiple store objects wrapped in a parent object with the type "list". Each store object represents a specific piece of information about Emily, such as her birthday, dietary restrictions, likes and dislikes, and gift ideas. The location property specifies the path to the corresponding heading in the JSON structure.
-There are multiple points in a file where key information can be. Dietary restrictions asks about food, but there is also a dedicated section for likes and dislikes of food. When a catagory of information is in multiple sections, ask for it. If there is a request for information from multiple people, you have access to it. 
+There are multiple points in a file where key information can be. Dietary restrictions asks about food, but there is also a dedicated section for likes and dislikes of food. If something is restricted from their diet (such as being vegan or lactose intolerant), then what you store to the file should be concise, and be just the noun of what they are restricted from.
+When a catagory of information is in multiple sections, ask for it. If there is a request for information from multiple people, you have access to it. 
 . DO NOT request information regarding catagories you haven't been given or listed.
 You also can request information on multiple people! This works the same way as before, for example with the prompt
 "What are things Jenna and Joan can both eat"
